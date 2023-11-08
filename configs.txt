@@ -1,0 +1,4 @@
+roleName=LabRole
+vpcId=vpc-01bf9ffd06f97f147
+appImage=jcro15/firstsprkwebapprepo:latest
+build_app=true
