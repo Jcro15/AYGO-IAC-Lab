@@ -19,7 +19,6 @@ cd cdk
 # Run the 'cdk synth' with context values
 cdk synth --context "vpcId=$vpcId" \
           --context "roleName=$roleName" \
-          --context "port=$appPort" \
           --context "appImage=$appImage"
 wait
 
